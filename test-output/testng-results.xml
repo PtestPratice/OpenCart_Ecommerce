@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-07T20:40:09 IST" name="OpenCartMastersuite" finished-at="2023-02-07T20:40:25 IST" duration-ms="15808">
+    <groups>
+      <group name="Sanity">
+        <method signature="TC_002_LoginPageTest.LoginPage()[pri:0, instance:testCases.TC_002_LoginPageTest@1189dd52]" name="LoginPage" class="testCases.TC_002_LoginPageTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2023-02-07T20:40:09 IST" name="OpenCart" finished-at="2023-02-07T20:40:25 IST" duration-ms="15808">
+      <class name="testCases.TC_002_LoginPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC_002_LoginPageTest@1189dd52]" started-at="2023-02-07T20:40:10 IST" name="setup" finished-at="2023-02-07T20:40:21 IST" duration-ms="11728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginPage()[pri:0, instance:testCases.TC_002_LoginPageTest@1189dd52]" started-at="2023-02-07T20:40:21 IST" name="LoginPage" finished-at="2023-02-07T20:40:24 IST" duration-ms="2933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_002_LoginPageTest@1189dd52]" started-at="2023-02-07T20:40:24 IST" name="tearDown" finished-at="2023-02-07T20:40:25 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC_002_LoginPageTest -->
+    </test> <!-- OpenCart -->
+  </suite> <!-- OpenCartMastersuite -->
+</testng-results>
